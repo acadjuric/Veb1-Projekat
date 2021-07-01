@@ -110,7 +110,7 @@ namespace Projekat_WEB.Controllers
                 korisnik.datumiOtkazivanja = new List<DateTime>();
                 kupci.Add(korisnik.Korisnicko_Ime, korisnik);
                 PomocneMetode.UpisiKupceUFajl(kupci);
-                // return "Uspesna registracija";
+               
                 return Request.CreateResponse(HttpStatusCode.OK, "Uspesna registracija");
 
             }
@@ -129,27 +129,8 @@ namespace Projekat_WEB.Controllers
                 List<Karta> povratna = new List<Karta>();
                 if (k.Uloga.Equals(EUloga.Kupac))
                 {
-                    //foreach (KeyValuePair<Karta, string> karta in karte)
-                    //{
-                    //    if (k.Korisnicko_Ime.Equals(karta.Value))
-                    //    {
-                    //        if (karta.Key.Status_Karte.Equals(EStatusKarte.Rezervisana))
-                    //        {
-                    //            povratna.Add(karta.Key);
-                    //        }
-
-                    //    }
-                    //}
                     povratna.AddRange(k.Karte.FindAll(karta => karta.Status_Karte.Equals(EStatusKarte.Rezervisana)));
-                    //if (povratna.Count > 0)
-                    //{
                     return Request.CreateResponse(HttpStatusCode.OK, povratna);
-                    //}
-                    //else
-                    //{
-                    //    return Request.CreateResponse(HttpStatusCode.NoContent, "Kupac nema rezervisanih karti");
-                    //}
-
                 }
                 else if (k.Uloga.Equals(EUloga.Prodavac))
                 {
