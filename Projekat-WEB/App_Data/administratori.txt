@@ -1,0 +1,2 @@
+admin;admin;admin;admin;Musko;Administrator;2000-03-02;Pocetnik;0;0;0;False;False
+admin2;admin2;admin2;admin2;Zensko;Administrator;1997-10-02;Pocetnik;0;0;0;False;False

@@ -1,0 +1,276 @@
+﻿
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(#434343,#000000);
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#greska {
+    margin-left: 20px;
+    color: #ff0000;
+}
+
+#dugmeOdjava {
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    background-color: #e80000;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    #dugmeOdjava:hover {
+        background-color: #e80000;
+        box-shadow: 0 0 5px #e80000, 0 0 25px #e80000, 0 0 50px #e80000, 0 0 100px #e80000
+    }
+
+#omotac {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+    #omotac .opcija {
+        margin: 10px;
+    }
+
+#kreiraj, #pocetna {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    #kreiraj:hover {
+        color: #00ffff;
+        font-size: 20px;
+    }
+
+    #pocetna:hover {
+        color: #fffc5e;
+        font-size: 20px;
+    }
+
+h3 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#pretraga {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+    #pretraga .izbor-pretraga {
+        margin: 2px;
+    }
+
+        #pretraga .izbor-pretraga input {
+            border: none;
+            outline: none;
+            font-size: 18px;
+            color: black;
+            padding: 5px 5px;
+            height: 30px;
+            width: 170px;
+            border-radius: 5px;
+        }
+
+        #pretraga .izbor-pretraga #btnPretraga {
+            height: 40px;
+            width: 100px;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            padding: 2px 2px;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            overflow: hidden;
+            letter-spacing: 1px;
+            background-color: #2196f3;
+            border-radius: 10px;
+        }
+
+            #pretraga .izbor-pretraga #btnPretraga:hover {
+                background-color: #2196f3;
+                box-shadow: 0 0 5px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3, 0 0 100px #2196f3
+            }
+
+#sortiranje_i_filtriranje {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+    #sortiranje_i_filtriranje .izbor-sf {
+        margin: 10px;
+        color: #fff;
+    }
+
+    #sortiranje_i_filtriranje select {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    #sortiranje_i_filtriranje label {
+        text-transform: uppercase
+    }
+
+.aca {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+.coa {
+    background-color: #000;
+    color: #ff0000;
+}
+
+#profilKorisnika, #dugmeZaKorisnike, #dugmeZaSumnjive, #dugmeZaManifestacije, #dugmekomentar, #dugmeKarte {
+    height: 30px;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#profilKorisnika {
+    background-color: #14c800;
+}
+
+    #profilKorisnika:hover {
+        box-shadow: 0 0 5px #14c800, 0 0 25px #14c800, 0 0 50px #14c800, 0 0 100px #14c800
+    }
+
+#dugmeZaKorisnike {
+    background-color: #0000ff
+}
+
+    #dugmeZaKorisnike:hover {
+        box-shadow: 0 0 5px #0000ff, 0 0 25px #0000ff, 0 0 50px #0000ff, 0 0 100px #0000ff
+    }
+
+#dugmeZaSumnjive {
+    background-color: #e80000;
+}
+
+    #dugmeZaSumnjive:hover {
+        box-shadow: 0 0 5px #e80000, 0 0 25px #e80000, 0 0 50px #e80000, 0 0 100px #e80000
+    }
+
+#dugmeZaManifestacije {
+    background-color: #ff9933;
+}
+
+    #dugmeZaManifestacije:hover {
+        box-shadow: 0 0 5px #ff9933, 0 0 25px #ff9933, 0 0 50px #ff9933, 0 0 100px #ff9933;
+    }
+
+#dugmekomentar {
+    background-color: #ff0066;
+}
+
+    #dugmekomentar:hover {
+        box-shadow: 0 0 5px #ff0066, 0 0 25px #ff0066, 0 0 50px #ff0066, 0 0 100px #ff0066;
+    }
+
+#dugmeKarte {
+    background-color: #cc00ff;
+}
+
+    #dugmeKarte:hover {
+        box-shadow: 0 0 5px #cc00ff, 0 0 25px #cc00ff, 0 0 50px #cc00ff, 0 0 100px #cc00ff;
+    }
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-spacing: 0;
+    border: 2px solid #14c800;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+    table th, tr, td {
+        border: 2px solid #14c800;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+    }
+
+    table th {
+        width: 130px;
+        height: 40px;
+        letter-spacing: 1px;
+    }
+
+    table tr, td {
+        width: 130px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+#obrisiManifestaciju, #odobriManifestaciju, #obrisiKartu, #obrisiKorisnika, #blokirajKorisnika, #blokirajSumnjivogKorisnika {
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#blokirajKorisnika, #blokirajSumnjivogKorisnika {
+    color: #ff00ff;
+    background: #fff;
+}
+
+    #blokirajKorisnika:hover, #blokirajSumnjivogKorisnika:hover {
+        color: #fff;
+        background: #ff00ff;
+        box-shadow: 0 0 5px #ff00ff, 0 0 25px #ff00ff, 0 0 50px #ff00ff, 0 0 100px #ff00ff
+    }
+
+#obrisiManifestaciju, #obrisiKartu, #obrisiKorisnika {
+    color: #ff1a1a;
+    background: #fff;
+}
+
+    #obrisiManifestaciju:hover, #obrisiKartu:hover, #obrisiKorisnika:hover {
+        color: #fff;
+        background-color: #ff1a1a;
+        box-shadow: 0 0 5px #ff1a1a, 0 0 25px #ff1a1a, 0 0 50px #ff1a1a, 0 0 100px #ff1a1a
+    }
+
+#odobriManifestaciju {
+    color: #0000ff;
+    background: #fff;
+}
+
+    #odobriManifestaciju:hover {
+        color: #fff;
+        background-color: #0000ff;
+        box-shadow: 0 0 5px #0000ff, 0 0 25px #0000ff, 0 0 50px #0000ff, 0 0 100px #0000ff
+    }

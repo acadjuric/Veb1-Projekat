@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../CSS/Pocetna.css" rel="stylesheet" />
+
+    <script src="../Scripts/jquery-3.5.1.js"></script>
+    <script src="../JavaScript/Pocetna.js"></script>
+</head>
+<body>
+    <h2>Prikaz svih manifestacija</h2>
+
+    <div id="greska" hidden></div>
+
+    <a id="prijava" href="Login.html">Prijavi se</a>
+    <br />
+    <a id="registracija" href="UserRegister.html">Registruj se </a>
+
+    <button hidden id="dugmeOdjava">Odjavi se</button>
+
+    <button hidden id="profilKorisnika">Prikazi profil</button>
+
+    <a class="link" hidden id="adminpanel" href="Admin/AdminPanel.html">Admin Panel</a>
+
+    <a class="link" hidden id="prodavacindex" href="Prodavac/Index.html">Prodavac Pocetna</a>
+
+    <h3>Pretrazi Manifestacije</h3>
+    <div id="pretraga">
+
+        <div class="opcija">
+            <input type="text" placeholder="Naziv manifestacije" id="naziv" />
+        </div>
+        <div class="opcija">
+            <input type="text" placeholder="Grad" id="mestoOdrzavanja" />
+        </div>
+        <div class="opcija">
+            <input type="date" placeholder="od" id="datumOD" />
+            <input type="date" placeholder="do" id="datumDO" />
+        </div>
+        <div class="opcija">
+            <input type="number" placeholder="Cena od" id="cenaOD" />
+            <input type="number" placeholder="Cena do" id="cenaDO" />
+        </div>
+        <div class="opcija">
+            <button id="btnPretraga">Pretrazi</button>
+        </div>
+
+    </div>
+
+    <h3 class="messi">Filtriraj-Sortiraj Manifestacije</h3>
+
+    <div class="messi" id="sortiranje_i_filtriranje">
+
+        <div class="izbor">
+            <label for="sortiraj">Sortiraj po</label>
+            <select id="sortiraj">
+                <option class="aca" value="-">-</option>
+                <option class="aca" value="Naziv">Nazivu</option>
+                <option class="aca" value="DatumVreme">Datumu i Vremenu</option>
+                <option class="aca" value="CenaKarte">Ceni karte</option>
+                <option class="aca" value="MestoOdrzavanja">Mestu odrzavanja</option>
+            </select>
+
+        </div>
+        <div class="izbor">
+            <label for="filtriraj">Filtriraj po</label>
+            <select id="filtriraj">
+                <option class="aca" value="-">-</option>
+                <option class="aca" value="nerasprodate"> Nerasprodate manifestacije</option>
+                <option class="aca" value="koncert"> Koncert</option>
+                <option class="aca" value="festival"> Festival</option>
+                <option class="aca" value="pozoriste"> Pozoriste</option>
+                <option class="aca" value="predstava"> Predstava</option>
+            </select>
+        </div>
+
+    </div>
+
+    <br /><br />
+    <div id="sadrzaj">
+
+    </div>
+
+
+
+</body>
+</html>

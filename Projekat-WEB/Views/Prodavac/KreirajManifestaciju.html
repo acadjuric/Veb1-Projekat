@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/KreirajManifestaciju.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.5.1.js"></script>
+    <script src="../../Scripts/ol.js"></script>
+    <link href="../../Scripts/ol.css" rel="stylesheet" />
+    <script src="../../JavaScript/KreirajManifestaciju.js"></script>
+</head>
+<body>
+    <h2 id="kreiranjenaslov">Kreiranje Manifestacije</h2>
+    <h2 id="izmeninaslov" hidden>Izmeni Manifestaciju</h2>
+
+    <a id="prodavacindex" href="Index.html">Prodavac Pocetna</a>
+
+    <div id="greska" hidden></div>
+
+    <button id="promenaslike">Promeni sliku</button>
+
+    <div id="slicica">
+        <p><b>Trenutna slika manifestacija</b></p>
+        <img id="aca" src="" />
+    </div>
+
+    <div class="omotac">
+
+
+        Naziv manifestacije
+        <input type="text" id="naziv" name="Naziv" required />
+        <br />
+
+        Tip Manifestacije
+        <select id="tip" name="Tip_Manifestacije">
+            <option value="Koncert">Koncert</option>
+            <option value="Festival">Festival</option>
+            <option value="Pozoriste">Pozoriste</option>
+            <option value="Predstava">Predstava</option>
+        </select>
+        <br />
+        Broj Regularnih Mesta
+        <input type="number" id="mestaregular" name="BrojRegularnihMesta" required />
+        <br />
+
+        Broj Vip Mesta
+        <input type="number" id="mestavip" name="BrojVipMesta" required />
+        <br />
+
+        Broj Fan pit Mesta
+        <input type="number" id="mestafanpit" name="BrojFanPitMesta" required />
+        <br />
+
+        Datum i vreme odrzavanja
+        <input type="datetime-local" id="datumvreme" name="Datum_i_Vreme_Odrzavanja" required />
+        <br />
+
+        Cena Regularne Karte
+        <input type="number" id="cena" name="Cena_Regularne_Karte" required />
+        <br />
+        <div id="divslika">
+            Slika Manifestacije
+            <input type="file" id="slika" name="Putanja_do_slike" required />
+        </div>
+
+        <br />
+        Geogafska sirina
+        <input type="number" id="sirina" name="sirina" required />
+        <br />
+        Geografska duzina
+        <input type="number" id="duzina" name="duzina" required />
+        <br />
+
+        Ulica
+        <input type="text" id="ulicabroj" name="Ulica_i_Broj" required />
+        <br />
+        Broj
+        <input type="text" id="broj" name="broj" required />
+        <br />
+        Grad
+        <input type="text" id="grad" name="Grad" required />
+        <br />
+        Postanski Broj
+        <input type="number" id="postanskibroj" name="Postanski_Broj" required />
+
+        <br />
+
+        <button type="submit" id="btn"> Kreiraj </button>
+        <button type="submit" id="btnizmeni" hidden> Izmeni </button>
+    </div>
+
+    <div id="map">
+
+    </div>
+
+
+
+</body>
+</html>

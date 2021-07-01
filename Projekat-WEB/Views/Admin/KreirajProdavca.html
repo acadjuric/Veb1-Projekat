@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../CSS/KreirajProdavca.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.5.1.js"></script>
+    <script src="../../JavaScript/KreirajProdavca.js"></script>
+</head>
+<body>
+    <div class="register-box">
+
+        <h2>
+            Kreiranje Prodavca
+        </h2>
+
+
+
+        <div id="info" hidden></div>
+
+
+        <div class="user-box">
+            <input type="text" id="username" name="Korisnicko_Ime" required />
+            <label for="username">Korisnicko ime</label>
+        </div>
+
+        <div class="user-box">
+            <input type="password" id="sifra" name="Lozinka" required />
+            <label for="sifra">Lozinka</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="ime" name="Ime" required />
+            <label for="ime">Ime</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="prezime" name="Prezime" required />
+            <label for="prezime">Prezime</label>
+        </div>
+
+        <div class="user-box">
+            <select id="pol" name="Pol">
+                <option class="pol-izbor" value="Musko">Musko</option>
+                <option class="pol-izbor" value="Zensko">Zensko</option>
+            </select>
+            <label for="pol">Pol</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="datum" name="Datum_Rodjenja" required onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />
+            <label for="Datum_Rodjenja">Datum Rodjenja</label>
+        </div>
+
+
+
+        <button id="btn" type="button">Kreiraj prodavca</button>
+        <br /><br />
+        <a id="adminpanel" href="AdminPanel.html">Admin Panel</a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+mica;exit;Festival;398;40;80;2020-11-25T15:10;1000;Jevrejska;Novi Sad;21101;exit.jpg;True;False;19.840265;45.253512;14
+mica;Green love;Festival;250;25;35;2020-09-28T13:45;400;Sutjeska;Novi Sad;21101;green love.jpg;False;False;19.845429;45.247561;2
+pera;Pevaj brate;Predstava;300;15;20;2021-01-18T20:15;250;Мије Ковачевића;Belgrade;11060;pevaj brate.jpg;False;False;20.491009;44.815489;9
+pera;Sasa Matic;Koncert;345;30;50;2020-09-27T22:00;350;Milentija Popovica;Belgrade;11000;sasa matic.jpg;True;False;20.432095;44.809284;9
+zika;zdravko colic;Koncert;400;20;36;2021-05-25T21:00;370;Сајмиште;Belgrade;11000;zdravko colic.jpg;True;False;20.444072;44.814152;12b
+zika;Lexington bend;Koncert;280;17;30;2020-09-26T17:30;300;Поцерска;Šabac;15000;lexington.jpg;True;False;19.685784;44.748608;1
+zika;Komentari 1;Pozoriste;10;2;3;2020-09-10T17:30;300;Jevrejska;Novi Sad;21101;slicica.jpg;True;False;19.840265;45.253512;14
+pera;Komentari 2;Pozoriste;30;10;20;2020-09-12T22:00;350;Sutjeska;Novi Sad;21101;slika1.png;True;False;19.845429;45.247561;2
+mica;Parni Valjak;Koncert;20;5;6;2020-09-11T13:45;400;Milentija Popovica;Belgrade;11000;parni valjak.jpg;True;False;20.432095;44.809284;9

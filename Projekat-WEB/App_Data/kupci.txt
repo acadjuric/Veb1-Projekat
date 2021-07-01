@@ -1,0 +1,5 @@
+aca;aca123;Aleksandar;Djuric;Musko;Kupac;1989-10-23;Pocetnik;532;1000;0;False;False;False
+bojana24;bojana123;Bojana;Mijailovic;Zensko;Kupac;1993-08-10;Pocetnik;465.5;1000;0;False;False;False
+k26a8;kika123;Kristina;Acimovic;Zensko;Kupac;1992-03-24;Pocetnik;957.6;1000;0;False;False;False
+cofon;fica123;Filip;Teodorovic;Musko;Kupac;1994-06-22;Pocetnik;787.36;1000;0;False;False;False
+test;test123;test;test;Musko;Kupac;2020-09-07;Pocetnik;0;1000;0;False;False;False

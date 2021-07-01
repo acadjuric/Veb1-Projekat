@@ -1,0 +1,101 @@
+﻿
+
+body {
+    margin: 0;
+    background: linear-gradient(#141e30,#243b55);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.login-box {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+    .login-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .login-box .user-box {
+        position: relative;
+    }
+
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 30px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            transition: 1s;
+            cursor: pointer;
+        }
+
+input:-webkit-autofill {
+    -webkit-transition-delay: 99999s;
+    -webkit-text-fill-color: #fff;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.login-box button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: none;
+}
+
+    .login-box button:hover {
+        background-color: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4
+    }
+
+.login-box a {
+    color: #fff;
+    margin-left: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+    .login-box a:hover {
+        color: #03e9f4;
+    }

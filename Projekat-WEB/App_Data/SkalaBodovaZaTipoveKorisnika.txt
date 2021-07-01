@@ -1,0 +1,5 @@
+﻿Tip korisnika | Potrebni bodovi za unapredjenje tipa | Popust za korisinika na osnovu tipa |
+	Pocetnik  |				1000					 |					0				   |
+	Bronzani  |				2000					 |				   10				   |
+	Srebrni   |				3000					 |				   20				   |
+	Zlatni    |				int.MaxValue		     |				   30				   |

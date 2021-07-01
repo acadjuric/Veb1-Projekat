@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../CSS/UserRegister.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.5.1.js"></script>
+    <script src="../JavaScript/UserRegister.js"></script>
+</head>
+<body>
+    <div class="register-box">
+        <h2>
+            Registracija
+        </h2>
+
+        <div id="info" hidden></div>
+
+
+
+        <div class="user-box">
+            <input type="text" id="username" name="Korisnicko_Ime" required />
+            <label for="username">Korisnicko ime</label>
+        </div>
+
+        <div class="user-box">
+
+            <input type="password" id="sifra" name="Lozinka" required />
+            <label for="sifra">Lozinka</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="ime" name="Ime" required />
+            <label for="ime">Ime</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="prezime" name="Prezime" required />
+            <label for="prezime">Prezime</label>
+        </div>
+
+        <div class="user-box">
+            <select id="pol" name="Pol">
+                <option class="pol-izbor" value="Musko">Musko</option>
+                <option class="pol-izbor" value="Zensko">Zensko</option>
+            </select>
+            <label for="pol">Pol</label>
+        </div>
+
+
+        <div class="user-box">
+            <input type="text" id="datumRodjenja" name="Datum_Rodjenja" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" required />
+            <label for="datumRodjenja">Datum Rodjenja</label>
+        </div>
+
+        <button id="btn" type="button"> Registruj se</button>
+
+        <a class="link" id="link-pocetna" href="Pocetna.html">Idi na pocetnu</a>
+        <br /><br />
+        <a class="link" id="link-prijava" href="Login.html">Prijavi se</a>
+
+    </div>
+
+
+</body>
+</html>

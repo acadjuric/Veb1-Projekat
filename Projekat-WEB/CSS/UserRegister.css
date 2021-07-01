@@ -1,0 +1,131 @@
+﻿
+
+body {
+    margin: 0;
+    background: linear-gradient(#141e30,#243b55);
+    /*background: linear-gradient(0deg,#243b55 50%,#2196f3);*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.register-box {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+    .register-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .register-box .user-box {
+        position: relative;
+    }
+
+        .register-box .user-box input, select {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+        }
+
+        /*.register-box .user-box select{
+            width:100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom:30px;
+            border: none;
+            outline:none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+        }*/
+
+        .register-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            transition: 1s;
+            cursor: pointer;
+        }
+
+input:-webkit-autofill {
+    -webkit-transition-delay: 99999s;
+    -webkit-text-fill-color: #fff;
+}
+
+.register-box .user-box input:focus ~ label,
+.register-box .user-box input:valid ~ label,
+.register-box .user-box select:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #31ff00;
+    font-size: 12px;
+}
+
+.pol-izbor {
+    background-color: #243b55;
+    color: #fff;
+}
+
+.register-box #btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #31ff00;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: none;
+}
+
+#btn:hover {
+    background-color: #31ff00;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #31ff00, 0 0 25px #31ff00, 0 0 50px #31ff00, 0 0 100px #31ff00
+}
+
+.register-box .link {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+    .register-box .link:hover {
+        color: #31ff00
+    }
+
+#link-pocetna {
+    margin-left: 25px;
+}
+
+#link-prijava {
+    margin-left: 130px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+
+    background-color:#fff;
+}

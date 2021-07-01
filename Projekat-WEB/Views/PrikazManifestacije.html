@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../CSS/PrikazManifestacije.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.5.1.js"></script>
+    <script src="../Scripts/ol.js"></script>
+    <link href="../Scripts/ol.css" rel="stylesheet" />
+    <script src="../JavaScript/PrikazManifestacije.js"></script>
+</head>
+<body>
+    <h1>Prikaz Manifestacije</h1>
+
+    <div id="greska" hidden></div>
+
+    <div id="link">
+        <a href="Pocetna.html">Idi na pocetnu</a>
+    </div>
+
+    <div class="omotac">
+
+        <input type="text" id="naziv" readonly /> <br />
+
+        <input type="text" id="tip" readonly /> <br />
+
+        <img src="" id="slika" /> <br />
+
+
+        Broj mesta:
+        <input type="text" id="brojmesta" readonly /> <br />
+        Preostali broj regularnih karata:
+        <input type="text" id="ostaleregular" readonly /> <br />
+        Preostali broj vip karata:
+        <input type="text" id="ostalevip" readonly /> <br />
+        Preostali broj fan pit karata:
+        <input type="text" id="ostalefanpit" readonly /> <br />
+        Datum i vreme odrzavanja:
+        <input type="text" id="datumvreme" readonly /> <br />
+        Cena karte:
+        <input type="text" id="cena" readonly /> <br />
+        Status:
+        <input type="text" id="status" readonly /> <br />
+        Mesto odrzavanja (Adresa broj, grad, postanski broj):
+        <div id="lokacija">
+            <input type="text" id="ulicabroj" readonly /> <br />
+            <input type="text" id="grad" readonly /> <br />
+            <input type="text" id="geografija" readonly /> <br />
+        </div>
+
+        <div id="map">
+
+        </div>
+    </div>
+    <br /> <br />
+    <div id="rezervacija">
+        <!-- URADI SHOW HIDE I ZA OVO UKOLIKO JE ULOGOVAN KORISNIK, SAMO KUPAC MOZE DA VIDI OVO-->
+        Rezervacija karata <br />
+        <input id="brojkarata" type="number" placeholder="broj karata" />
+        <select id="tipkarte">
+            <option class="aca" value="vip">VIP</option>
+            <option class="aca" value="regular">REGULAR</option>
+            <option class="aca" value="fan pit">FAN PIT</option>
+        </select>
+
+        <button id="dugmerezervacija">Rezervisi</button>
+    </div>
+    <br />
+    <div id="unosKomentara">
+        Ocenite Manifestaciju
+        <select id="ocena">
+            <option class="aca" value="1">1</option>
+            <option class="aca" value="2">2</option>
+            <option class="aca" value="3">3</option>
+            <option class="aca" value="4">4</option>
+            <option class="aca" value="5">5</option>
+        </select>
+        <br />
+        <textarea required id="komentar" rows="6" cols="60" placeholder="Ostavite Vas komentar"></textarea>
+        <br />
+
+        <button id="dugmekomentar">Posalji</button>
+
+    </div>
+    <br />
+    <div id="komentari">
+
+
+    </div>
+
+
+
+</body>
+</html>

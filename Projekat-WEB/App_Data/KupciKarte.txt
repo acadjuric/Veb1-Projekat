@@ -1,0 +1,20 @@
+Aleksandar;Djuric;3747b9a032;exit;Festival;2020-11-25T15:10;1000;Rezervisana;Regular;False;aca;Jevrejska;Novi Sad;21101;14
+Aleksandar;Djuric;c8c5c16b92;exit;Festival;2020-11-25T15:10;1000;Rezervisana;Regular;False;aca;Jevrejska;Novi Sad;21101;14
+Kristina;Acimovic;7adb598166;Lexington bend;Koncert;2020-09-26T17:30;1200;Rezervisana;VIP;False;k26a8;Поцерска;Šabac;15000;1
+Kristina;Acimovic;787f1771d4;Lexington bend;Koncert;2020-09-26T17:30;1200;Rezervisana;VIP;False;k26a8;Поцерска;Šabac;15000;1
+Kristina;Acimovic;9d334d6bc5;Lexington bend;Koncert;2020-09-26T17:30;1200;Rezervisana;VIP;False;k26a8;Поцерска;Šabac;15000;1
+Filip;Teodorovic;1d756de463;zdravko colic;Koncert;2021-05-25T21:00;740;Rezervisana;FanPit;False;cofon;Сајмиште;Belgrade;11000;12b
+Filip;Teodorovic;665d5749a2;zdravko colic;Koncert;2021-05-25T21:00;740;Rezervisana;FanPit;False;cofon;Сајмиште;Belgrade;11000;12b
+Filip;Teodorovic;5210410b62;zdravko colic;Koncert;2021-05-25T21:00;740;Rezervisana;FanPit;False;cofon;Сајмиште;Belgrade;11000;12b
+Filip;Teodorovic;933ff4f339;zdravko colic;Koncert;2021-05-25T21:00;740;Rezervisana;FanPit;False;cofon;Сајмиште;Belgrade;11000;12b
+Bojana;Mijailovic;c5eb6f0368;Sasa Matic;Koncert;2020-09-27T22:00;350;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Bojana;Mijailovic;fbc1f4d937;Sasa Matic;Koncert;2020-09-27T22:00;350;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Bojana;Mijailovic;160b6e2f9c;Sasa Matic;Koncert;2020-09-27T22:00;350;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Bojana;Mijailovic;eba2b5300d;Sasa Matic;Koncert;2020-09-27T22:00;350;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Bojana;Mijailovic;197f60a90d;Sasa Matic;Koncert;2020-09-27T22:00;350;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Aleksandar;Djuric;1234567890;Parni Valjak;Koncert;2020-09-11T13:45;400;Rezervisana;Regular;False;aca;Milentija Popovica;Belgrade;11000;9
+Bojana;Mijailovic;1234567899;Parni Valjak;Koncert;2020-09-11T13:45;400;Rezervisana;Regular;False;bojana24;Milentija Popovica;Belgrade;11000;9
+Aleksandar;Djuric;1234567898;Komentari 1;Pozoriste;2020-09-10T17:30;1200;Rezervisana;VIP;False;aca;Jevrejska;Novi Sad;21101;14
+Kristina;Acimovic;1234567897;Komentari 1;Pozoriste;2020-09-10T17:30;600;Rezervisana;FanPit;False;k26a8;Jevrejska;Novi Sad;21101;14
+Kristina;Acimovic;1234567896;Komentari 2;Pozoriste;2020-09-12T22:00;700;Rezervisana;FanPit;False;k26a8;Sutjeska;Novi Sad;21101;2
+Bojana;Mijailovic;1234567895;Komentari 2;Pozoriste;2020-09-12T22:00;1400;Rezervisana;VIP;False;bojana24;Sutjeska;Novi Sad;21101;2

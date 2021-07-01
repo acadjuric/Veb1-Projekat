@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link href="../CSS/Login.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.5.1.js"></script>
+    <script src="../JavaScript/Login.js"></script>
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <div id="greska" hidden></div>
+        <div class="user-box">
+            <input type="text" id="username" name="Ime" required>
+            <label for="username">Username</label>
+        </div>
+        <div class="user-box">
+            <!--Ovde ide prezime kako ne bih bespotrebno pravio Login Model sa dva polja a vec imam model Kupac sa tim poljima-->
+            <!--Jer ne znam kako drugacije bez modela da prenesem unete podatke na server [FromBody] ne moze da uzme dva parametra -->
+            <input type="password" id=sifra name="Prezime" required>
+            <label for="sifra">Password</label>
+        </div>
+        <button id="btn" value="Login">Prijavi se</button>
+        <a href="Pocetna.html">Idi na pocetnu</a>
+    </div>
+</body>
+</html>

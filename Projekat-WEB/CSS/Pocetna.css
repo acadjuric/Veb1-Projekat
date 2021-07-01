@@ -1,0 +1,222 @@
+﻿
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#fff, #2196f3);
+    /*background: linear-gradient(#2193b0,#6dd5ed);*/
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.karta {
+    width: 20%;
+    display: inline-table;
+    /*display:inline-block;*/
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px black;
+    /*overflow:hidden;*/
+    transition: 0.5s ease-in-out;
+}
+
+#sadrzaj .karta:not(:hover) {
+    transform: scale(0.9);
+}
+
+#sadrzaj .karta:hover {
+    transform: scale(1.05);
+    /*background: linear-gradient(#ffffff,#fffc00);*/
+    /*background: linear-gradient(#eacda3,#d6ae7b);*/
+    background: linear-gradient(to right, #00c6ff,#0072ff);
+}
+
+.slika {
+    height: 250px;
+    background-size: cover;
+}
+
+    .slika img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        /*overflow:hidden;*/
+    }
+
+
+.naslov h1, h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.opis p, span {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.opis a {
+    text-decoration: underline;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+    .opis a:hover {
+        color: red;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+
+
+
+#prijava, #registracija {
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#registracija {
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+    #prijava:hover, #registracija:hover {
+        color: #04ff00;
+    }
+
+#pretraga {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#pretraga .opcija {
+    margin: 2px;
+}
+
+    #pretraga .opcija input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: black;
+        padding: 5px 5px;
+        height: 30px;
+        width: 170px;
+    }
+
+    #pretraga .opcija #btnPretraga {
+        height: 40px;
+        width: 100px;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        padding: 2px 2px;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        overflow: hidden;
+        letter-spacing: 1px;
+        background-color: #2196f3;
+        border-radius: 10px;
+    }
+
+        #pretraga .opcija #btnPretraga:hover {
+            background-color: #2196f3;
+            box-shadow: 0 0 5px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3, 0 0 100px #2196f3
+        }
+
+#FSnaslov {
+    margin-left: -120px;
+}
+
+
+#sortiranje_i_filtriranje {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+    #sortiranje_i_filtriranje .izbor {
+        margin: 10px;
+    }
+
+    #sortiranje_i_filtriranje select {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: black;
+    }
+
+    #sortiranje_i_filtriranje label {
+        text-transform: uppercase
+    }
+
+.aca {
+    background-color: #031185;
+    color: #fff;
+}
+
+#dugmeOdjava {
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    background-color: #e80000;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    #dugmeOdjava:hover {
+        background-color: #e80000;
+        box-shadow: 0 0 5px #e80000, 0 0 25px #e80000, 0 0 50px #e80000, 0 0 100px #e80000;
+    }
+
+#profilKorisnika {
+    margin-left: 30px;
+    height: 30px;
+    background-color: #14c800;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    #profilKorisnika:hover {
+        background-color: #14c800;
+        box-shadow: 0 0 5px #14c800, 0 0 25px #14c800, 0 0 50px #14c800, 0 0 100px #14c800
+    }
+
+.link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+    .link:hover {
+        color: #ff0066;
+        text-decoration: underline;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }

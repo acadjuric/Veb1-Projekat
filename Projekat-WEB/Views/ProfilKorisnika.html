@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../CSS/ProfilKorisnika.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.5.1.js"></script>
+    <script src="../JavaScript/ProfilKorisnika.js"></script>
+</head>
+<body>
+    <h1>Profil korisnika</h1>
+
+    <div id="greska" hidden></div>
+
+    <button id="dugmeOdjava">Odjavi se</button>
+
+    <a id="linkPocetna" href="Pocetna.html">Idi na pocetnu</a>
+
+    <button id="dugmepodaci">Prikazi licne podatke</button>
+
+    <button id="dugmeKarte">Prikazi karte</button>
+    <br />
+
+    <h3>Pretrazi Karte</h3>
+    <div id="pretraga">
+
+        <div class="opcija">
+            <input type="text" placeholder="Naziv manifestacije" id="naziv" />
+        </div>
+        <div class="opcija">
+            <input type="date" placeholder="od" id="datumOD" />
+            <input type="date" placeholder="do" id="datumDO" />
+        </div>
+        <div class="opcija">
+            <input type="number" placeholder="Cena od" id="cenaOD" />
+            <input type="number" placeholder="Cena do" id="cenaDO" />
+        </div>
+
+        <div class="opcija">
+            <button id="btnPretraga">Pretrazi</button>
+        </div>
+
+    </div>
+    <br /><br />
+    <h3 id="naslovSortirajFiltriraj" hidden>Sortiraj-Filtriraj Karte</h3>
+
+    <div id="sortiranje_i_filtriranje" hidden>
+
+        <div class="izbor">
+            <label for="sortiraj">Sortiraj po</label>
+            <select id="sortiraj">
+                <option class="aca" value="-">-</option>
+                <option class="aca" value="Naziv">Nazivu manifestacije</option>
+                <option class="aca" value="DatumVreme">Datumu odrzavanja</option>
+                <option class="aca" value="CenaKarte">Ceni karte</option>
+            </select>
+        </div>
+
+        <div class="izbor">
+            <label for="nacinsortiranja">Redosled</label>
+            <select id="nacinsortiranja">
+                <option class="aca" value="-">-</option>
+                <option class="aca" value="rastuce">Rastuce</option>
+                <option class="aca" value="opadajuce">Opadajuce</option>
+            </select>
+        </div>
+
+        <br />
+        <div class="izbor">
+            <label for="filtriraj">Filtriraj po</label>
+            <select id="filtriraj">
+                <optgroup class="coa" label="Tipu karte">
+                    <option class="aca" value="-">-</option>
+                    <option class="aca" value="vip">VIP</option>
+                    <option class="aca" value="regular">Regular</option>
+                    <option class="aca" value="fanpit">Fan Pit</option>
+                </optgroup>
+                <optgroup class="coa" label="Statusu karte">
+                    <option class="aca" value="rezervisana">Rezervisana</option>
+                    <option class="aca" value="odustana">Odustana</option>
+                </optgroup>
+            </select>
+        </div>
+
+    </div>
+
+
+
+    <table id="podaci" border="1" hidden>
+        <tr>
+            <td><b>Korisnicko ime</b></td>
+            <td> <input type="text" id="username" name="Korisnicko_Ime" required /></td>
+        </tr>
+        <tr>
+            <td><b>Lozinka</b></td>
+            <td><input type="text" id="sifra" name="Lozinka" /></td>
+        </tr>
+        <tr>
+            <td><b>Ime</b></td>
+            <td> <input type="text" id="ime" name="Ime" required /></td>
+        </tr>
+        <tr>
+            <td><b>Prezime</b></td>
+            <td> <input type="text" id="prezime" name="Prezime" required /></td>
+        </tr>
+        <tr>
+            <td><b>Pol</b></td>
+            <td>
+                <select id="pol" name="Pol">
+                    <option class="aleksa" value="Musko">Musko</option>
+                    <option class="aleksa" value="Zensko">Zensko</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Datum Rodjenja</b></td>
+            <td> <input type="date" id="Datum_Rodjenja" name="Datum_Rodjenja" required /></td>
+        </tr>
+        <tr>
+            <td><b>Broj sakupljenih bodova</b></td>
+            <td><input id="brojBodova" readonly /></td>
+        </tr>
+        <tr>
+            <td><b>Ime tip korisnika</b></td>
+            <td> <input type="text" id="tipkorisnika" readonly /> </td>
+        </tr>
+        <tr>
+            <td><b>Popust korisnika</b></td>
+            <td> <input type="text" id="popust" readonly /> </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center"> <button id="dugmeizmeni"> izmeni </button></td>
+        </tr>
+    </table>
+
+    <br /> <br />
+
+
+
+    <div id="sadrzajKarte">
+
+    </div>
+
+</body>
+</html>

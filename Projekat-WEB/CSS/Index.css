@@ -1,0 +1,166 @@
+﻿
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(#734b6d,#42275a);
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#kreiraj, #pocetna {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    #kreiraj:hover {
+        color: #00ffff;
+        font-size: 20px;
+    }
+
+    #pocetna:hover {
+        color: #fffc5e;
+        font-size: 20px;
+    }
+
+#omotac {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+    #omotac .opcija {
+        margin: 10px;
+    }
+
+#dugmeOdjava {
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    background-color: #e80000;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    #dugmeOdjava:hover {
+        background-color: #e80000;
+        box-shadow: 0 0 5px #e80000, 0 0 25px #e80000, 0 0 50px #e80000, 0 0 100px #e80000
+    }
+
+
+#btnucitaj, #dugmekomentar, #profilKorisnika {
+    height: 30px;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#btnucitaj {
+    background-color: #ff9933;
+}
+
+#profilKorisnika {
+    background-color: #14c800;
+}
+
+#dugmekomentar {
+    background-color: #00bfff;
+}
+
+#btnucitaj:hover {
+    box-shadow: 0 0 5px #ff9933, 0 0 25px #ff9933, 0 0 50px #ff9933, 0 0 100px #ff9933
+}
+
+#profilKorisnika:hover {
+    box-shadow: 0 0 5px #14c800, 0 0 25px #14c800, 0 0 50px #14c800, 0 0 100px #14c800
+}
+
+#dugmekomentar:hover {
+    box-shadow: 0 0 5px #00bfff, 0 0 25px #00bfff, 0 0 50px #00bfff, 0 0 100px #00bfff
+}
+
+#manifestacije, #komentari {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-spacing: 0;
+    border: 2px solid #00bfff;
+    border-radius: 10px;
+}
+
+    #manifestacije th, tr, td {
+        border: 2px solid #00bfff;
+        border-radius: 5px;
+        text-align: center
+    }
+
+    #manifestacije tr, td {
+        color: #fff;
+        width: 100px;
+        height: 60px;
+    }
+
+    #manifestacije th {
+        color: #ff9933
+    }
+
+#izmena {
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+    #izmena:hover {
+        color: #14c800;
+        font-size: 20px;
+        text-decoration: underline #14c800;
+    }
+
+#komentari th {
+    color: #ff9933;
+    border: 2px solid #00bfff;
+    border-radius: 5px;
+    text-align: center;
+    height: 60px;
+}
+
+#dugmeodobri, #dugmeodbij {
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#dugmeodobri {
+    background-color: #14c800;
+}
+
+#dugmeodbij {
+    background-color: #e80000;
+}
+
+#dugmeodobri:hover {
+    box-shadow: 0 0 5px #14c800, 0 0 25px #14c800, 0 0 50px #14c800, 0 0 100px #14c800
+}
+
+#dugmeodbij:hover {
+    box-shadow: 0 0 5px #e80000, 0 0 25px #e80000, 0 0 50px #e80000, 0 0 100px #e80000
+}

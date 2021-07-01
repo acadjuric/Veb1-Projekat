@@ -1,0 +1,195 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(#a1c4fd,#c2e9fb);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#link {
+    text-align: center;
+}
+
+    #link a {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+    a:hover {
+        text-decoration: underline #fff;
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+#greska {
+    margin-left: 30px;
+    color: red;
+    font-size: 16px;
+}
+
+.omotac {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 20px;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+
+input[type=text] {
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 2px;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#naziv {
+    letter-spacing: 1px;
+    font-size: 38px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+#tip {
+    letter-spacing: 1px;
+    font-size: 28px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+#slika {
+    width: 474px;
+    height: 279px;
+}
+
+#map {
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin-left: 500px;
+    margin-top: -250px;
+}
+
+#ulicabroj, #grad {
+    text-transform: capitalize;
+}
+
+#rezervacija {
+    float: right;
+    margin-right: 350px;
+}
+
+#brojkarata, #tipkarte {
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+
+#tipkarte {
+    width: 120px;
+}
+
+::placeholder {
+    color: #000
+}
+
+#dugmerezervacija, #dugmekomentar {
+    height: 30px;
+    background-color: #000099;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    #dugmerezervacija:hover, #dugmekomentar:hover {
+        box-shadow: 0 0 5px #000099, 0 0 25px #000099, 0 0 50px #000099, 0 0 100px #000099
+    }
+
+.aca {
+    color: #000;
+    background-color: #a1c4fd;
+}
+
+#unosKomentara {
+    float: right;
+    margin-right: 350px;
+    margin-top: 150px;
+}
+
+#ocena {
+    margin: 5px;
+    width: 60px;
+}
+
+#dugmekomentar {
+    float: right;
+}
+
+textarea {
+    resize: none;
+    background-color: transparent;
+}
+
+#komentari {
+    position: relative;
+    margin-top: 800px;
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.kupac {
+    /*background-color: #fff;*/
+    margin: 6px;
+    width: 800px;
+    height: 100px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+.ko {
+    border-bottom: 2px dashed #000;
+    height: 20%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.tekst {
+    margin-top: 1px;
+    border-bottom: 2px dotted #000;
+    height: 60%;
+}
+
+.broj {
+    height: 20%;
+    font-weight: bold;
+    color: #ff0000
+}
